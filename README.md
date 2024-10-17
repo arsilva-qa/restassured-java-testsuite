@@ -20,22 +20,8 @@ Abaixo está a estrutura do projeto de testes:
 Para rodar este projeto, você precisará ter:
 
 - **JDK 11+**: Para compilar e executar o código Java.
-- **Maven**: Para gerenciar as dependências do projeto.
+- **IDE com suporte ao Java**: Para importar o projeto na IDE, você deve escolher a opção de importar um projeto Maven. A IDE irá buscar as dependências automaticamente com base no pom.xml.
 
-## Configuração e Execução
-
-```bash
-### Clonando o repositório
-git clone https://github.com/seu-usuario/nome-do-projeto.git
-cd nome-do-projeto
-
-### Instalando as dependências
-mvn clean install
-
-### Executando os Testes
-Para rodar todos os testes automatizados, basta executar o seguinte comando:
-mvn test
-```
 ## Testes Implementados
 
 ### 1. Testes GET
