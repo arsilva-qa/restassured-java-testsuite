@@ -13,7 +13,7 @@ Este projeto contém testes automatizados para validar as operações da API do 
 
 Abaixo está a estrutura do projeto de testes:
 
-├── src │ ├── teste │ │ └── java │ │ ├── config │ │ │ └── ApiSetup.java # Configuração da URL base da API │ │ ├── tests │ │ │ ├── GetUserTests.java # Testes de consultas (GET) │ │ │ ├── PostUserTests.java # Testes de criação de usuários (POST) │ │ │ ├── PutUserTests.java # Testes de atualização de usuários (PUT) │ │ │ ├── DeleteUserTests.java # Testes de exclusão de usuários (DELETE) │ │ └── utils │ │ ├── CriarUsuario.java # Métodos para criação de dados de usuários │ │ ├── schemaGetListaUsuarios.json # JSON Schema para validação de arrays de usuários │ │ ├── schemaGetUsuarioUnico.json # JSON Schema para validação de um único usuário │ │ └── schemaPutEnderecoUsuario.json# JSON Schema para validação da atualização de endereç
+├── src </br>│ ├── teste </br>│ │ └── java </br>│ │ ├── config </br>│ │ │ └── ApiSetup.java # Configuração da URL base da API </br>│ │ ├── tests </br>│ │ │ ├── GetUserTests.java # Testes de consultas (GET) </br>│ │ │ ├── PostUserTests.java # Testes de criação de usuários (POST) </br>│ │ │ ├── PutUserTests.java # Testes de atualização de usuários (PUT) </br>│ │ │ ├── DeleteUserTests.java # Testes de exclusão de usuários (DELETE) </br>│ │ └── utils </br>│ │ ├── CriarUsuario.java # Métodos para criação de dados de usuários </br>│ │ ├── schemaGetListaUsuarios.json # JSON Schema para validação de arrays de usuários </br>│ │ ├── schemaGetUsuarioUnico.json # JSON Schema para validação de um único usuário </br>│ │ └── schemaPutEnderecoUsuario.json# JSON Schema para validação da atualização de endereço
 
 ## Pré-requisitos
 
